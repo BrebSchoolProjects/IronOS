@@ -5,6 +5,7 @@ set -u
 mkdir -p /build/ci/artefacts
 
 # Build STM code
+git config --global --add safe.directory /build/source
 cd /build/source/source/
 bash ./build.sh || exit 1
 echo "All Firmware built"
