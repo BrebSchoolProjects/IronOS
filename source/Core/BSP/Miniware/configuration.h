@@ -145,10 +145,10 @@
 #define TEMP_uV_LOOKUP_HAKKO                           //
 #define USB_PD_VMAX            20                      // Maximum voltage for PD to negotiate
 #define PID_TIM_HZ             (8)                     // Tick rate of the PID loop
-#define MAX_TEMP_C             450                     // Max soldering temp selectable °C
-#define MAX_TEMP_F             850                     // Max soldering temp selectable °F
-#define MIN_TEMP_C             10                      // Min soldering temp selectable °C
-#define MIN_TEMP_F             60                      // Min soldering temp selectable °F
+#define MAX_TEMP_C             370                     // Max soldering temp selectable °C
+#define MAX_TEMP_F             700                     // Max soldering temp selectable °F
+#define MIN_TEMP_C             300                      // Min soldering temp selectable °C
+#define MIN_TEMP_F             570                     // Min soldering temp selectable °F
 #define MIN_BOOST_TEMP_C       250                     // The min settable temp for boost mode °C
 #define MIN_BOOST_TEMP_F       480                     // The min settable temp for boost mode °F
 #define POW_DC
